@@ -88,7 +88,7 @@ SC_MODULE(toplevel)
     {
         wait(delay);
         sc_time time = sc_time_stamp();
-
+        sad
         // The sc_delta_count() returns the total number of executed
         // delta delays. In order to estimate the delta delay
         // between the time advances the following is done:
